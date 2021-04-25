@@ -1,0 +1,128 @@
+/* global desktop/laptop view */
+
+body {
+  color: rgba(255, 255, 255, 0.945);
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+p {
+  line-height: 200%;
+  margin-top: 20px;
+  font-family: calluna-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(173, 172, 172);
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  margin-top: 75px;
+  font-family: calluna, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+  font-size: 1.25rem;
+}
+
+h2 {
+  margin-top: 10px;
+  font-family: calluna, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+.header-container {
+  max-width: 1200px;
+  min-height: 60px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: calluna, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+.nav-buttons {
+  padding: 10px 35px;
+  font-family: calluna-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(173, 172, 172);
+}
+
+.burgerbutton {
+  display: none;
+}
+
+.title-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 175px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title-container h1 {
+  font-size: 4.77rem;
+  font-family: calluna, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1200px;
+  max-height: 575px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.frame {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+}
+
+.imageinfo {
+  width: 30%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.prevBtn,
+.nextBtn {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.486);
+  background: rgba(0, 0, 0, 0.205);
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  height: 30px;
+  width: 50px;
+  font-size: 28px;
+  margin-top: 100px;
+}
+
+/* .imagebox-1 {
+  display: none;
+} */
+
+/* media queries for mobile */
