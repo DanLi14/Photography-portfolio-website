@@ -97,7 +97,7 @@ h2 {
   justify-content: space-between;
 }
 
-.imageinfo {
+.imagetext {
   width: 30%;
 }
 
@@ -123,6 +123,11 @@ h2 {
 .imagebox-2 {
   display: none;
   /* to be deleted once slide feature is coded, added now to prevent imgs from overlapping */
+}
+
+.text2 {
+  display: none;
+  /* to be deleted once slide feature is coded, added now to prevent text from overlapping */
 }
 
 /* .imagebox-1 {
