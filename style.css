@@ -97,6 +97,10 @@ h2 {
   justify-content: space-between;
 }
 
+.images {
+  display: none;
+}
+
 .imagetext {
   width: 30%;
 }
@@ -120,18 +124,34 @@ h2 {
   margin-top: 100px;
 }
 
-.imagebox-2 {
+.text {
   display: none;
-  /* to be deleted once slide feature is coded, added now to prevent imgs from overlapping */
 }
 
-.text2 {
-  display: none;
-  /* to be deleted once slide feature is coded, added now to prevent text from overlapping */
+/* Fade effect */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.2s;
+  animation-name: fade;
+  animation-duration: 1.2s;
 }
 
-/* .imagebox-1 {
-  display: none;
-} */
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /* media queries for mobile */
