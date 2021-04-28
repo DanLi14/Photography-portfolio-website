@@ -107,11 +107,12 @@ h2 {
 
 .buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .prevBtn,
-.nextBtn {
+.nextBtn,
+.playBtn {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.486);
   background: rgba(0, 0, 0, 0.205);
