@@ -111,8 +111,7 @@ h2 {
 }
 
 .prevBtn,
-.nextBtn,
-.playBtn {
+.nextBtn {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.486);
   background: rgba(0, 0, 0, 0.205);
@@ -123,6 +122,17 @@ h2 {
   width: 50px;
   font-size: 28px;
   margin-top: 100px;
+}
+
+.playBtn {
+  height: 30px;
+  width: 50px;
+  font-size: 28px;
+  margin-top: 100px;
+  background: rgba(245, 243, 243, 0.171);
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
 }
 
 .text {

@@ -2,9 +2,11 @@ const backBtn = document.querySelector('.prevBtn');
 const forwardBtn = document.querySelector('.nextBtn');
 const images = document.querySelectorAll('.images');
 const text = document.querySelectorAll('.text');
+const playBtn = document.querySelector('.playBtn');
 
 let imageIndex = 1;
 let textIndex = 1;
+let p = false;
 showImage(imageIndex);
 showText(textIndex);
 
@@ -41,5 +43,27 @@ function showText(n) {
   text[textIndex - 1].style.display = 'block';
 }
 
+function slideShow(p = true) {
+  if (imageIndex > images.length) {
+    imageIndex = 1;
+    textIndex = 1;
+    showImage();
+    showText();
+    p = false;
+    playBtn.disabled = false;
+  }
+  if (p) {
+    showImage();
+    showText();
+    imageIndex++;
+    textIndex++;
+    playBtn.disabled = true;
+    setTimeout(slideShow, 10000);
+  } else {
+    return;
+  }
+}
+
 forwardBtn.addEventListener('click', (n) => NextImage(1));
 backBtn.addEventListener('click', (n) => NextImage(-1));
+playBtn.addEventListener('click', (p) => slideShow((p = true)));
