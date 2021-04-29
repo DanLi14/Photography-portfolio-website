@@ -74,7 +74,8 @@ h2 {
 }
 
 .title-container h1 {
-  font-size: 4.77rem;
+  margin: auto;
+  font-size: 3.6rem;
   font-family: calluna, serif;
   font-weight: 400;
   font-style: normal;
