@@ -29,9 +29,9 @@ h3 {
 
 h2 {
   margin-top: 10px;
-  font-family: calluna, serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: macho, sans-serif;
+  font-weight: 100;
+  font-style: italic;
   font-size: 1.25rem;
 }
 
@@ -46,8 +46,8 @@ h2 {
 }
 
 .logo {
-  font-family: calluna, serif;
-  font-weight: 400;
+  font-family: macho, sans-serif;
+  font-weight: 100;
   font-style: normal;
   font-size: 1.25rem;
 }
@@ -76,8 +76,8 @@ h2 {
 .title-container h1 {
   margin: auto;
   font-size: 3.6rem;
-  font-family: calluna, serif;
-  font-weight: 400;
+  font-family: macho, sans-serif;
+  font-weight: 100;
   font-style: normal;
 }
 
