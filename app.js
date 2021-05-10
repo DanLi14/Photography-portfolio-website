@@ -3,6 +3,7 @@ const forwardBtn = document.querySelector('.nextBtn');
 const images = document.querySelectorAll('.images');
 const text = document.querySelectorAll('.text');
 const playBtn = document.querySelector('.playBtn');
+const slideShowText = document.querySelector('.slideshow');
 
 let imageIndex = 1;
 let textIndex = 1;
@@ -49,10 +50,12 @@ function slideShow(p = true) {
     textIndex = 1;
     showImage();
     showText();
+    slideShowText.classList.remove('active');
     p = false;
     playBtn.disabled = false;
   }
   if (p) {
+    slideShowText.classList.add('active');
     showImage();
     showText();
     imageIndex++;
