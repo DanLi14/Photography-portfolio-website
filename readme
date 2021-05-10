@@ -1,22 +1,25 @@
 Title and People
 Title: Matthew's Photography website
-People: Daniel Li(web dev), Matthew (client)
+People: Daniel Li(web dev), Matthew Li Photography (client)
 Date: see github for latest on version control
 
 Overview
 A photography website that displays images in a single interactive page.
 Features to include:
 Allowing users to advance to the next or previous image via a button click.
-webpage will auto advance between each image at a setTime interval.
+webpage will auto advance between each image at a setTime interval (updated to allow user control over slideshow feature)
 
 Context
 To give users the ability to appreciate Matthew's photography in an interactive, user-friendly experience.
 
 Milestones
-Day 1 - Have the initial HTML format and basics css implemented and push everything onto git.
-Day 2 - Code the initial next/previous image feature. 
-Day 3 - Code auto advance image feature.
-Day 4 - include information approved by the photographer that provides user with more info about each image
-Day 5 and beyond - ongoing maintenance, refactoring and general improvements as requested by the photographer.
+Have the initial HTML format and basics css implemented and push everything onto git.
+Code the initial next/previous image feature. 
+Code auto advance image feature (updated to allow user control over slideshow feature as requested by client)
+Include information approved by the photographer that provides user with more info about each image
+Update website so that it can be viewed easily on mobile. 
+
+Follow-on objectives
+Ongoing maintenance, refactoring and general improvements as requested by the photographer.
 
 
