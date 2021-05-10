@@ -149,6 +149,15 @@ nav {
   opacity: 1;
 }
 
+footer {
+  margin: 50px auto;
+  text-align: center;
+  font-family: calluna-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(173, 172, 172);
+}
+
 /* Fade effect */
 .fade {
   -webkit-animation-name: fade;
@@ -185,10 +194,9 @@ nav {
 
 /* media queries for mobile */
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   .container {
     max-width: 1200px;
-    max-height: 575px;
     margin: 0 auto;
     display: block;
   }
@@ -202,6 +210,14 @@ nav {
 
   .hide-desktop-only {
     display: block;
+  }
+
+  .mob-img {
+    margin: 0px 24px 0px 24px;
+  }
+
+  p {
+    text-align: center;
   }
 
   nav {
@@ -225,5 +241,18 @@ nav {
     padding: 15px 30px;
     margin-left: -70px;
     text-align: center;
+    color: rgba(0, 0, 0, 0.74);
+  }
+
+  .navbutton:hover {
+    background-color: rgba(255, 255, 255, 0.214);
+  }
+
+  .imagetext {
+    display: none;
+  }
+
+  footer {
+    margin-top: 2850px;
   }
 }
