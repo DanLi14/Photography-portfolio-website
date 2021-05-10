@@ -52,6 +52,10 @@ h2 {
   font-size: 1.25rem;
 }
 
+nav {
+  margin-right: 450px;
+}
+
 .nav-buttons {
   padding: 10px 35px;
   font-family: calluna-sans, sans-serif;
@@ -59,11 +63,6 @@ h2 {
   font-style: normal;
   color: rgb(173, 172, 172);
 }
-
-.burgerbutton {
-  display: none;
-}
-
 .title-container {
   margin: 0 auto;
   max-width: 1200px;
@@ -176,4 +175,55 @@ h2 {
   }
 }
 
+.hide-desktop-only {
+  display: none;
+}
+
+.mob-wrapper {
+  display: none;
+}
+
 /* media queries for mobile */
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 1200px;
+    max-height: 575px;
+    margin: 0 auto;
+    display: block;
+  }
+  .frame {
+    display: block;
+  }
+
+  .images .fade {
+    display: block;
+  }
+
+  .hide-desktop-only {
+    display: block;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .mob-wrapper {
+    display: block;
+    padding-right: 30px;
+  }
+
+  .mob-nav {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+  }
+
+  .navbutton {
+    display: block;
+    background-color: whitesmoke;
+    padding: 15px 30px;
+    margin-left: -70px;
+    text-align: center;
+  }
+}

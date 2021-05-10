@@ -67,6 +67,12 @@ function slideShow(p = true) {
   }
 }
 
+$(document).ready(function () {
+  $('.burgermenu').on('click', function () {
+    $('.mob-nav').toggle();
+  });
+});
+
 forwardBtn.addEventListener('click', (n) => NextImage(1));
 backBtn.addEventListener('click', (n) => NextImage(-1));
 playBtn.addEventListener('click', (p) => slideShow((p = true)));
